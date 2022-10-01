@@ -8,7 +8,7 @@ def random_pass():
     pswrd = ''
     for i in range(16):
         pswrd = pswrd + random.choice(list('!,.@#%^&*()1234567890abcdefghigklmnopqrstuvyxwzABCDEFGHIGKLMNOPQRSTUVYXWZ'))
-    return "Привет, " + str(login) + "! password of yours: " + str(pswrd)
+    return "Привет, " + str(login) + "! password sdfdsfsdfdsfdsfsdof yours: " + str(pswrd)
 
 
 if __name__ == "__main__":
